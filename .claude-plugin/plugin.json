@@ -8,7 +8,7 @@
   },
   "homepage": "https://kilazi.com/wiki/done-check/",
   "repository": "https://github.com/kilazi/done-check",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "keywords": ["claude-code", "hooks", "stop-hook", "tests", "verification"],
   "userConfig": {
     "enabled": {
