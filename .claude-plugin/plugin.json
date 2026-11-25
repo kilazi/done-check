@@ -1,0 +1,28 @@
+{
+  "name": "done-check",
+  "version": "0.1.0",
+  "description": "Your agent's 'done' needs a passing test after its last edit: a Stop hook that blocks once when it did not run.",
+  "author": {
+    "name": "kilazi",
+    "url": "https://kilazi.com"
+  },
+  "homepage": "https://kilazi.com/wiki/done-check/",
+  "repository": "https://github.com/kilazi/done-check",
+  "license": "MIT",
+  "keywords": ["claude-code", "hooks", "stop-hook", "tests", "verification"],
+  "userConfig": {
+    "enabled": {
+      "type": "boolean",
+      "title": "Enabled",
+      "description": "Turn the done-check Stop hook on or off for every repo.",
+      "default": true
+    },
+    "baseline": {
+      "type": "string",
+      "title": "Old failures",
+      "description": "ignore lets go when the only failing tests already failed before the agent's first edit; warn blocks once and names them.",
+      "default": "ignore",
+      "options": ["ignore", "warn"]
+    }
+  }
+}

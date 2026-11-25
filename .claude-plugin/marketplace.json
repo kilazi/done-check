@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "kilazi",
+  "description": "Agent guards by kilazi",
+  "owner": {
+    "name": "kilazi",
+    "url": "https://kilazi.com"
+  },
+  "plugins": [
+    {
+      "name": "done-check",
+      "description": "Your agent's 'done' needs a passing test after its last edit.",
+      "source": "./",
+      "category": "development",
+      "homepage": "https://kilazi.com/wiki/done-check/"
+    }
+  ]
+}

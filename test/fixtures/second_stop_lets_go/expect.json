@@ -1,0 +1,6 @@
+{
+ "decision": "pass",
+ "payload": {
+  "stop_hook_active": true
+ }
+}

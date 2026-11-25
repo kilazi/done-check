@@ -1,0 +1,1 @@
+Your agent's 'done' needs a passing test after its last edit: a Claude Code Stop hook that sends it back once when no test ran.

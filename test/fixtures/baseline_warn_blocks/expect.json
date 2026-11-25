@@ -1,0 +1,7 @@
+{
+ "decision": "block",
+ "reason_contains": "failed before your edit",
+ "env": {
+  "CLAUDE_PLUGIN_OPTION_BASELINE": "warn"
+ }
+}

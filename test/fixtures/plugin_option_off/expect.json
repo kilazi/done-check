@@ -1,0 +1,6 @@
+{
+ "decision": "pass",
+ "env": {
+  "CLAUDE_PLUGIN_OPTION_ENABLED": "false"
+ }
+}

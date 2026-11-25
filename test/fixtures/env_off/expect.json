@@ -1,0 +1,6 @@
+{
+ "decision": "pass",
+ "env": {
+  "DONE_CHECK": "off"
+ }
+}
